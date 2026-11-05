@@ -17,7 +17,7 @@ jobs:
       - name: Extract project ZIP
         run: |
           mkdir -p project
-          unzip -q PRESSQ.zip -d project
+          unzip -q PressQ.zip -d project
           find project -name build.gradle.kts -print
 
       - name: Set up Java
